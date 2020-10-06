@@ -30,7 +30,7 @@ public class BasePage {   //Base page has all the  pre-conditions and post-condi
 	public ExtentReports report;
 	public ExtentTest logger;
 
-	@BeforeSuite
+	@BeforeSuite   //using report logs
 	public void setupSuite() {
 		Reporter.log("Setting up reports and tests getting started", true);
 
